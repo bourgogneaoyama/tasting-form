@@ -101,7 +101,7 @@ function sendConfirmationEmail(data) {
     '──────────────────────────────\n';
 
   GmailApp.sendEmail(data.email, subject, body, {
-    name: '青山ブルゴーニュ.shop',
+    name: 'サロンドヴァンパッシオン',
     from: 'salondevp@vp2004.net'
   });
 }
