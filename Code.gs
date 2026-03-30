@@ -74,7 +74,7 @@ function handleSubmission(raw) {
 
 // ── 自動返信メール ──
 function sendConfirmationEmail(data) {
-  var subject = '【青山ブルゴーニュ.shop】サロンドヴァンパッシオン試飲会 お申し込み受付のご確認';
+  var subject = '【サロンドヴァンパッシオン】サロンドヴァンパッシオン試飲会 お申し込み受付のご確認';
 
   var summary =
     '　お名前　　　：' + data.name + '　様（' + data.furigana + '）\n' +
